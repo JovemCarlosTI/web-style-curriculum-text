@@ -1,0 +1,57 @@
+/* --- Instrução 2 --- */
+body {
+    color: darkslategrey;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+}
+
+/* --- Instrução 3 --- */
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    background-color: lightskyblue;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* --- Instrução 4 --- */
+h1, h2, a, a:visited {
+    color: darkblue;
+}
+
+/* --- Instrução 5 --- */
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- Instrução 6 --- */
+
+/* Links visitados subjacentes a h1 */
+h1 a:visited, h1 a:link {
+    color: white;
+}
+
+/* Links não visitados subjacentes a h2 */
+h2 a:visited, h2 a:link {
+    color: lightskyblue;
+}
+
+/* Links subjacentes com hover no h1 ou no h2 */
+h1:hover a, h2:hover a {
+    color: darkblue;
+}
+
+/* --- Instrução 7 --- */
+#copyright {
+    font-weight: bold;
+    font-style: italic;
+}
